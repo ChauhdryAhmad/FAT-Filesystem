@@ -75,4 +75,23 @@ This project is a simple simulation of a file system in C. It implements basic f
 To compile the program, use the following command:
 
 ```bash
-gcc -o file_system_simulation main.c queue.c
+gcc -o file_system_simulation main.c 
+```
+
+## Run the program
+
+To run the program, run the following command
+
+```bash
+./file_system_simulation
+```
+
+## Note
+
+After running the program for first time its recomended to FORMAT the disk and files like `directory.txt`, `FAT.txt` and `block.txt` are just for debugging purposes.
+
+If you want to create your own virtual disk you have to create function and to change the attributes of disk like size of disk or directory or FAT you can change them in superblock struct.
+
+Thank You!! 😊
+
+
